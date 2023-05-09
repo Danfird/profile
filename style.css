@@ -1,0 +1,79 @@
+body {
+	background-color: #f4f4f4;
+	font-family: Arial, sans-serif;
+	color: #333;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+h1, h2, h3 {
+	color: #007bff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	line-height: 1.2;
+}
+
+h2, h3 {
+	font-size: 20px;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.card-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #999999;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px grey;
+}
+
+@media (max-width: 600px) {
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+  }
+}
